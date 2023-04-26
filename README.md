@@ -32,5 +32,5 @@ Read $[HOME]/WeatherB/weatherIMG.sys
 
 Position the weather dialog box, add these lines in coreEXT/1Functions/WinPosition/winPos.sys
 
-* + I ThisWindow ("FCWeather") Move -2 -35
-* + I ThisWindow ("WSettting") Move -4 -10
++ I ThisWindow ("FCWeather") Move -2 -35
++ I ThisWindow ("WSettting") Move -4 -10
