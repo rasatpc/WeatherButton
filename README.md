@@ -1,5 +1,5 @@
 # WeatherButton
-Takes a screenshot of your selected weather website, crops it, and makes an icon button and image dialog box. This is a Do-it-yourself (DIY) app to customize your weather information as per your nearest and accurate station. Each site is different as well as the language. This is a model of how it is made. It runs in Fvwm (myExt) and in any DE or WM.
+Takes a screenshot of your selected weather website, crops it, makes an icon button and image dialog box. This is a Do-it-yourself (DIY) app to customize your weather information as per your nearest and accurate station. Each site is different as well as the language. This is a model of how it is made. It runs in Fvwm (myExt) and in any DE or WM.
 
 Requires Cutycapt and ImageMagic:
 * sudo apt install cutycapt imagemagick-common
