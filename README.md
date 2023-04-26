@@ -1,7 +1,7 @@
 # WeatherButton
 Takes a screenshot of your selected weather website, crops it, and makes an icon button and image dialog box. This is a Do-it-yourself (DIY) app to customize your weather information as per your nearest and accurate station. Each site is different as well as the language. This is a model of how it is made. It runs in Fvwm (myExt) and in any DE or WM.
 
-# Requires Cutycapt and ImageMagic:
+Requires Cutycapt and ImageMagic:
 * sudo apt install cutycapt imagemagick-common
 * sudo pacman -Syu cutycapt imagemagick
 * sudo dnf install cutycapt ImageMagick
@@ -30,7 +30,7 @@ Add this line:
 
 Read $[HOME]/WeatherB/weatherIMG.sys
 
-Position the weather dialog box, and add these lines in coreEXT/1Functions/WinPosition/winPos.sys
+Position the weather dialog box, add these lines in coreEXT/1Functions/WinPosition/winPos.sys
 
 * + I ThisWindow ("FCWeather") Move -2 -35
 * + I ThisWindow ("WSettting") Move -4 -10
