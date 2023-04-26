@@ -1,0 +1,17 @@
+## Modules: weatherIMG.sys
+## 
+
+## Current weather screenshot.
+Exec ~/WeatherB/wStartup.sh
+
+## Wait 5 seconds to complete weather update.
+Schedule 5000 Read $[HOME]/WeatherB/ButtonW.sys
+
+## Loop 15 min 8 sec
+DestroyFunc LoopButton
+AddToFunc LoopButton
++ I Schedule 908000 LoopButton
++ I KillModule FvwmButtons WiconB
++ I Module FvwmButtons WiconB
+
+LoopButton

@@ -1,0 +1,27 @@
+## Modules: ButtonW.sys
+##
+
+## Move/position yad dialog box windows, read readme-wbt.txt
+
+#SetEnv EXTRA_DIR $[HOME]/.fvwm/extraEXT/
+
+Style FCWeather* NoTitle
+# Style WSettting* NoTitle
+
+## Set small icon
+SetEnv WimgFi $[HOME]/WeatherB/image
+
+Module FvwmButtons WiconB
+
+DestroyModuleConfig WiconB: *
+*WiconB: Geometry 92x175-0-290
+*WiconB: Back #83abaa
+*WiconB: PressColorset 4
+*WiconB: Frame 0
+*WiconB: Rows 1
+*WiconB: BoxSize smart
+*WiconB: Padding 0 0
+*WiconB: (1x1, Icon $[WimgFi]/forecaNOWds.png, Back #a6c0d5, Action(Mouse 1) "Exec exec $[HOME]/WeatherB/weatherBOX.sh")
+
+# Style Setting
+Style WiconB !Borders, !Title, StaysOnTop, WindowListSkip, Sticky
