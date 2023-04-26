@@ -7,7 +7,7 @@ Requires Cutycapt and ImageMagic:
 * sudo dnf install cutycapt ImageMagick
 
 # For DE and WM
-, make one folder and copy the content to it:
+Make one folder and copy the content to it:
 * $ mkdir ~/WeatherB
 
 Updates weather button every 15 minutes, edit script ~/wStartup.sh line 46.
