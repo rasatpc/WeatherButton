@@ -9,7 +9,7 @@ PLACE=$(awk '{ print $3 }' location.txt)
 
 URL=$(sed 's/,/\//' location.txt) 
 
-yad --width=400 --title="WSettting" --text="<big><b>Enter location:</b></big>" --form --field="Country":TEXT "$CONT" > location/country-city.txt --field="City":TEXT "$CITY" > location/country-city.txt --field="Place":TEXT "$PLACE" > location/country-city.txt --button=Cancel:1 --button=Ok:0
+yad --width=400 --title="WSettting" --geometry="+1300+700" --text="<big><b>Enter location:</b></big>" --form --field="Country":TEXT "$CONT" > location/country-city.txt --field="City":TEXT "$CITY" > location/country-city.txt --field="Place":TEXT "$PLACE" > location/country-city.txt --button=Cancel:1 --button=Ok:0
 
 if [ $? -ne 0 ]; then
 cp location/country-city.bkp location/country-city.txt

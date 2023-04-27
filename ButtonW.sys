@@ -1,9 +1,7 @@
-## Modules: ButtonW.sys
+## Fvwm: ButtonW.sys
 ##
 
 ## Move/position yad dialog box windows, read readme-wbt.txt
-
-#SetEnv EXTRA_DIR $[HOME]/.fvwm/extraEXT/
 
 Style FCWeather* NoTitle
 # Style WSettting* NoTitle

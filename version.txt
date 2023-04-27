@@ -1,2 +1,2 @@
-26 Apr 2023
-WeatherButton ver. 1.0.1
+27 Apr 2023
+WeatherButton ver. 1.1.0

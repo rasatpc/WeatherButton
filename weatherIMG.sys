@@ -1,5 +1,5 @@
-## Modules: weatherIMG.sys
-## 
+## Fvwm: weatherIMG.sys
+##
 
 ## Current weather screenshot.
 Exec ~/WeatherB/wStartup.sh
