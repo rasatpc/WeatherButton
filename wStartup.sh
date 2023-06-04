@@ -2,6 +2,7 @@
 ## Startup before runing daeamon.
 
 ## Check connection
+sleep 900
 ping -q -c1 foreca.fi &>/dev/null && echo online || test="offline"
   
 	if [ $test = offline ]; then
