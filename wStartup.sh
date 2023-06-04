@@ -1,7 +1,7 @@
 #! /bin/bash
 ## Startup before runing daeamon.
 
-## Check connection
+### Check connection
 sleep 900
 ping -q -c1 foreca.fi &>/dev/null && echo online || test="offline"
   
